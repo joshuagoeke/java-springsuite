@@ -1,10 +1,12 @@
 package com.javaspringsuite.javaspringsuite.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.*;
 import org.springframework.security.core.Transient;
 
 import java.io.Serializable;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
